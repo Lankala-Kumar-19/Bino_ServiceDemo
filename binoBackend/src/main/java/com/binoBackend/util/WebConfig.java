@@ -14,7 +14,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(@Nonnull CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("*")
+                        .allowedOrigins("https://bino-service-demo.vercel.app/")
                         .allowedMethods("GET", "POST", "PUT", "DELETE");
             }
         };
