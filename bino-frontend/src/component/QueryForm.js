@@ -14,6 +14,8 @@ const handleSubmit = async (e) => {
     const res = await axios.post('https://bino-servicedemo.onrender.com/api/generateLink', {
       category, query, location
     });
+    console.log(res.data);
+    
     window.open(res.data, '_blank');
   } catch (err) {
     console.error(err);
