@@ -16,6 +16,6 @@ public class BinoUtil {
 
     public static String generateWhatsappLink(String message) {
         String encoded = URLEncoder.encode(message, StandardCharsets.UTF_8);
-        return "https://wa.me/8309643257?text=" + encoded;
+        return "https://wa.me/9800081110?text=" + encoded;
     }
 }
